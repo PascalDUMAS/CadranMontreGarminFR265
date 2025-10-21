@@ -1,0 +1,10 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <font id="BebasNeueRegular" filename="../fonts/BebasNeueRegular.fnt" antialias="true" />
+    <bitmap id="LauncherIcon" filename="launcher_icon.svg" dithering="none" />
+    <bitmap id="HeartIcon" filename="coeur.svg" />
+    <bitmap id="BatteryIcon" filename="battery.svg" />
+    <bitmap id="AltitudeIcon" filename="altitude.svg" />
+    <bitmap id="TemperatureIcon" filename="temperature.svg" />
+    <bitmap id="SoleilIcon" filename="soleil.svg" />
+    <bitmap id="Background" filename="background.png" />
+</resources>

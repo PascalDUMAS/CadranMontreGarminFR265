@@ -1,0 +1,92 @@
+[ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [System,4,13,19]; @symbol_usingAlias = [Sys,4,23,26]; ]
+using Toybox.System as :Sys;
+[ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Lang,5,13,17]; @symbol_usingAlias = [Lang,5,21,25]; ]
+using Toybox.Lang as :Lang;
+[ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [Application,6,13,24]; @symbol_usingAlias = [App,6,28,31]; ]
+using Toybox.Application as :App;
+[ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 8; @symbol_classdef = [TapDelegate,8,6,17]; @symbol_extends<0> = [Ui,8,26,28]; @symbol_extends<1> = [InputDelegate,8,29,42]; ]
+class TapDelegate extends Ui.InputDelegate {
+    [ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; ]
+    function initialize() as Void {
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_10_26_12_4_start:
+[ "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc" 11 8 ]
+        symbol [ Ui %tmp.1 11 8 10 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ InputDelegate %tmp.2 11 11 24 ];
+        %tmp.2 = getv %tmp.1 :InputDelegate;
+        symbol [ initialize %tmp.3 11 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_10_26_12_4_stop:
+    }
+    [ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 14; @symbol_functiondef = [onTap,14,13,18]; @symbol_param<0> = [evt,14,19,22]; @symbol_param<0>_type<0> = [Ui,14,26,28]; @symbol_param<0>_type<1> = [ClickEvent,14,29,39]; @symbol_return<0> = [Lang,14,44,48]; @symbol_return<1> = [Boolean,14,49,56]; ]
+    function onTap(evt as Ui.ClickEvent) as Lang.Boolean {
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_14_57_27_4_start:
+[ "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc" 17 8 ]
+        [ "_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_14_57_27_4_start" "_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_14_57_27_4_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 17 12 15 ];
+        symbol [ App %tmp.1 17 18 21 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 17 22 28 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %app.1 %tmp.3;
+        symbol [ app %app.1 17 12 15 ];
+[ "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc" 18 8 ]
+        [ "_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_14_57_27_4_start" "_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_14_57_27_4_stop" ]
+        %view.2 = local;
+        symbol [ view %view.2 18 12 16 ];
+        %tmp.4 = lgetv %app.1;
+        symbol [ app %tmp.4 18 19 22 ];
+        symbol [ getView %tmp.5 18 23 30 ];
+        %tmp.5 = getv function %tmp.4 :getView;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %view.2 %tmp.6;
+        symbol [ view %view.2 18 12 16 ];
+[ "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc" 21 8 ]
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_21_8_24_8_if_stmt:
+        %tmp.7 = lgetv %view.2;
+        symbol [ view %tmp.7 21 12 16 ];
+        symbol [ MonCadranDeMontreView %tmp.9 21 28 49 ];
+        %tmp.9 = getv ? :MonCadranDeMontreView;
+        %tmp.10 = isa %tmp.7 %tmp.9;
+        bf %tmp.10 @_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_21_8_24_8_if_end;
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_21_8_24_8_if_true:
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_21_51_24_8_start:
+[ "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc" 22 12 ]
+        %tmp.11 = lgetv %view.2;
+        symbol [ view %tmp.11 22 13 17 ];
+        %tmp.12 = as %tmp.11 { (MonCadranDeMontreView) };
+        %tmp.13 = as %tmp.12 MonCadranDeMontreView;
+        symbol [ MonCadranDeMontreView %tmp.13 22 21 42 ];
+        symbol [ toggleTapDisplay %tmp.14 22 44 60 ];
+        %tmp.14 = getv function %tmp.13 :toggleTapDisplay;
+        invoke %tmp.13 %tmp.14();
+[ "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc" 23 12 ]
+        symbol [ Ui %tmp.15 23 12 14 ];
+        %tmp.15 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.16 23 15 28 ];
+        %tmp.16 = getv function %tmp.15 :requestUpdate;
+        invoke %tmp.15 %tmp.16();
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_21_51_24_8_stop:
+        goto @_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_21_8_24_8_if_end;
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_21_8_24_8_if_end:
+[ "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc" 26 8 ]
+        %tmp.17 = true;
+        ret %tmp.17;
+_Users_Shared_Previously_Relocated_Items_Security_pascal_projet_IQ_connect_premiereHorloge_forrunner265_01_forunner265_01_source_TapDelegate_mc_14_57_27_4_stop:
+    }
+}
+[ @file = "/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/TapDelegate.mc"; @line = 3; ]
+<init> {
+}

@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="1" lineNum="19" parent="globals/MonCadranDeMontreView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="1" lineNum="28" parent="globals/MonCadranDeMontreView" pc="268435471" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="1" lineNum="29" parent="globals/MonCadranDeMontreView" pc="268435488" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/bin/gen/006-B4257-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435536" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="3" lineNum="11" parent="globals/forunner265_01App" pc="268435556" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="409" parent="globals/MonCadranDeMontreView" pc="268435568" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="410" parent="globals/MonCadranDeMontreView" pc="268435571" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="411" parent="globals/MonCadranDeMontreView" pc="268435596" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="412" parent="globals/MonCadranDeMontreView" pc="268435608" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="414" parent="globals/MonCadranDeMontreView" pc="268435634" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="421" parent="globals/MonCadranDeMontreView" pc="268435701" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="422" parent="globals/MonCadranDeMontreView" pc="268435716" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="424" parent="globals/MonCadranDeMontreView" pc="268435761" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="425" parent="globals/MonCadranDeMontreView" pc="268435779" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="426" parent="globals/MonCadranDeMontreView" pc="268435788" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="427" parent="globals/MonCadranDeMontreView" pc="268435804" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="429" parent="globals/MonCadranDeMontreView" pc="268435826" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="435" parent="globals/MonCadranDeMontreView" pc="268435869" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="436" parent="globals/MonCadranDeMontreView" pc="268435875" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="440" parent="globals/MonCadranDeMontreView" pc="268435893" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="444" parent="globals/MonCadranDeMontreView" pc="268435960" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="445" parent="globals/MonCadranDeMontreView" pc="268435963" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="446" parent="globals/MonCadranDeMontreView" pc="268435967" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="447" parent="globals/MonCadranDeMontreView" pc="268435971" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="448" parent="globals/MonCadranDeMontreView" pc="268435992" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="449" parent="globals/MonCadranDeMontreView" pc="268436008" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="451" parent="globals/MonCadranDeMontreView" pc="268436025" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="458" parent="globals/MonCadranDeMontreView" pc="268436045" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="460" parent="globals/MonCadranDeMontreView" pc="268436054" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="461" parent="globals/MonCadranDeMontreView" pc="268436067" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="464" parent="globals/MonCadranDeMontreView" pc="268436080" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="469" parent="globals/MonCadranDeMontreView" pc="268436095" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="472" parent="globals/MonCadranDeMontreView" pc="268436108" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="4" lineNum="474" parent="globals/MonCadranDeMontreView" pc="268436129" symbol="showCoucheSoleil"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="670" parent="globals/MonCadranDeMontreView" pc="268436155" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="671" parent="globals/MonCadranDeMontreView" pc="268436158" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="672" parent="globals/MonCadranDeMontreView" pc="268436170" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="673" parent="globals/MonCadranDeMontreView" pc="268436178" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="675" parent="globals/MonCadranDeMontreView" pc="268436190" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="676" parent="globals/MonCadranDeMontreView" pc="268436193" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="677" parent="globals/MonCadranDeMontreView" pc="268436197" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="682" parent="globals/MonCadranDeMontreView" pc="268436206" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="684" parent="globals/MonCadranDeMontreView" pc="268436232" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="692" parent="globals/MonCadranDeMontreView" pc="268436311" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="693" parent="globals/MonCadranDeMontreView" pc="268436319" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="695" parent="globals/MonCadranDeMontreView" pc="268436338" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="697" parent="globals/MonCadranDeMontreView" pc="268436357" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="699" parent="globals/MonCadranDeMontreView" pc="268436376" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="701" parent="globals/MonCadranDeMontreView" pc="268436395" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="703" parent="globals/MonCadranDeMontreView" pc="268436414" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="705" parent="globals/MonCadranDeMontreView" pc="268436433" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="694" parent="globals/MonCadranDeMontreView" pc="268436455" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="696" parent="globals/MonCadranDeMontreView" pc="268436468" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="698" parent="globals/MonCadranDeMontreView" pc="268436481" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="700" parent="globals/MonCadranDeMontreView" pc="268436494" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="702" parent="globals/MonCadranDeMontreView" pc="268436507" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="704" parent="globals/MonCadranDeMontreView" pc="268436520" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="706" parent="globals/MonCadranDeMontreView" pc="268436533" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="714" parent="globals/MonCadranDeMontreView" pc="268436547" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="715" parent="globals/MonCadranDeMontreView" pc="268436562" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="716" parent="globals/MonCadranDeMontreView" pc="268436566" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="718" parent="globals/MonCadranDeMontreView" pc="268436575" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="724" parent="globals/MonCadranDeMontreView" pc="268436583" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="730" parent="globals/MonCadranDeMontreView" pc="268436602" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="5" lineNum="733" parent="globals/MonCadranDeMontreView" pc="268436621" symbol="showDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="350" parent="globals/MonCadranDeMontreView" pc="268436643" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="351" parent="globals/MonCadranDeMontreView" pc="268436646" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="354" parent="globals/MonCadranDeMontreView" pc="268436671" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="355" parent="globals/MonCadranDeMontreView" pc="268436678" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="358" parent="globals/MonCadranDeMontreView" pc="268436681" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="360" parent="globals/MonCadranDeMontreView" pc="268436697" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="362" parent="globals/MonCadranDeMontreView" pc="268436703" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="364" parent="globals/MonCadranDeMontreView" pc="268436713" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="366" parent="globals/MonCadranDeMontreView" pc="268436730" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="370" parent="globals/MonCadranDeMontreView" pc="268436739" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="377" parent="globals/MonCadranDeMontreView" pc="268436785" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="378" parent="globals/MonCadranDeMontreView" pc="268436806" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="379" parent="globals/MonCadranDeMontreView" pc="268436810" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="381" parent="globals/MonCadranDeMontreView" pc="268436827" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="389" parent="globals/MonCadranDeMontreView" pc="268436847" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="391" parent="globals/MonCadranDeMontreView" pc="268436856" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="392" parent="globals/MonCadranDeMontreView" pc="268436869" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="395" parent="globals/MonCadranDeMontreView" pc="268436882" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="400" parent="globals/MonCadranDeMontreView" pc="268436897" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="403" parent="globals/MonCadranDeMontreView" pc="268436907" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="6" lineNum="405" parent="globals/MonCadranDeMontreView" pc="268436929" symbol="showTemperature"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="481" parent="globals/MonCadranDeMontreView" pc="268436952" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="482" parent="globals/MonCadranDeMontreView" pc="268436955" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="487" parent="globals/MonCadranDeMontreView" pc="268436980" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="488" parent="globals/MonCadranDeMontreView" pc="268436992" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="489" parent="globals/MonCadranDeMontreView" pc="268437000" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="492" parent="globals/MonCadranDeMontreView" pc="268437008" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="497" parent="globals/MonCadranDeMontreView" pc="268437065" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="498" parent="globals/MonCadranDeMontreView" pc="268437068" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="502" parent="globals/MonCadranDeMontreView" pc="268437084" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="504" parent="globals/MonCadranDeMontreView" pc="268437097" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="7" lineNum="506" parent="globals/MonCadranDeMontreView" pc="268437114" symbol="showPas"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="620" parent="globals/MonCadranDeMontreView" pc="268437135" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="622" parent="globals/MonCadranDeMontreView" pc="268437138" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="625" parent="globals/MonCadranDeMontreView" pc="268437145" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="626" parent="globals/MonCadranDeMontreView" pc="268437157" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="627" parent="globals/MonCadranDeMontreView" pc="268437160" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="628" parent="globals/MonCadranDeMontreView" pc="268437164" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="632" parent="globals/MonCadranDeMontreView" pc="268437168" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="634" parent="globals/MonCadranDeMontreView" pc="268437185" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="637" parent="globals/MonCadranDeMontreView" pc="268437200" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="639" parent="globals/MonCadranDeMontreView" pc="268437243" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="641" parent="globals/MonCadranDeMontreView" pc="268437260" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="648" parent="globals/MonCadranDeMontreView" pc="268437279" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="649" parent="globals/MonCadranDeMontreView" pc="268437288" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="654" parent="globals/MonCadranDeMontreView" pc="268437301" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="659" parent="globals/MonCadranDeMontreView" pc="268437316" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="664" parent="globals/MonCadranDeMontreView" pc="268437326" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="8" lineNum="666" parent="globals/MonCadranDeMontreView" pc="268437333" symbol="showAltitude"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="9" lineNum="784" parent="globals/MonCadranDeMontreView" pc="268437356" symbol="test"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="9" lineNum="785" parent="globals/MonCadranDeMontreView" pc="268437359" symbol="test"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="9" lineNum="786" parent="globals/MonCadranDeMontreView" pc="268437366" symbol="test"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="9" lineNum="787" parent="globals/MonCadranDeMontreView" pc="268437381" symbol="test"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="9" lineNum="788" parent="globals/MonCadranDeMontreView" pc="268437397" symbol="test"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="55" parent="globals/MonCadranDeMontreView" pc="268437416" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="59" parent="globals/MonCadranDeMontreView" pc="268437419" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="60" parent="globals/MonCadranDeMontreView" pc="268437457" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="62" parent="globals/MonCadranDeMontreView" pc="268437476" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="63" parent="globals/MonCadranDeMontreView" pc="268437507" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="64" parent="globals/MonCadranDeMontreView" pc="268437538" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="65" parent="globals/MonCadranDeMontreView" pc="268437568" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="74" parent="globals/MonCadranDeMontreView" pc="268437599" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="81" parent="globals/MonCadranDeMontreView" pc="268437689" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="82" parent="globals/MonCadranDeMontreView" pc="268437727" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="83" parent="globals/MonCadranDeMontreView" pc="268437765" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="84" parent="globals/MonCadranDeMontreView" pc="268437803" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="85" parent="globals/MonCadranDeMontreView" pc="268437841" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="10" lineNum="86" parent="globals/MonCadranDeMontreView" pc="268437879" symbol="onLayout"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="736" parent="globals/MonCadranDeMontreView" pc="268437918" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="739" parent="globals/MonCadranDeMontreView" pc="268437921" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="740" parent="globals/MonCadranDeMontreView" pc="268437933" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="741" parent="globals/MonCadranDeMontreView" pc="268437936" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="745" parent="globals/MonCadranDeMontreView" pc="268437962" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="746" parent="globals/MonCadranDeMontreView" pc="268437983" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="747" parent="globals/MonCadranDeMontreView" pc="268438001" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="749" parent="globals/MonCadranDeMontreView" pc="268438013" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="752" parent="globals/MonCadranDeMontreView" pc="268438032" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="753" parent="globals/MonCadranDeMontreView" pc="268438036" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="754" parent="globals/MonCadranDeMontreView" pc="268438040" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="757" parent="globals/MonCadranDeMontreView" pc="268438044" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="758" parent="globals/MonCadranDeMontreView" pc="268438072" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="761" parent="globals/MonCadranDeMontreView" pc="268438079" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="762" parent="globals/MonCadranDeMontreView" pc="268438087" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="770" parent="globals/MonCadranDeMontreView" pc="268438095" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="771" parent="globals/MonCadranDeMontreView" pc="268438107" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="776" parent="globals/MonCadranDeMontreView" pc="268438129" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="11" lineNum="779" parent="globals/MonCadranDeMontreView" pc="268438148" symbol="showTemperatureGraph"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="514" parent="globals/MonCadranDeMontreView" pc="268438159" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="517" parent="globals/MonCadranDeMontreView" pc="268438162" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="518" parent="globals/MonCadranDeMontreView" pc="268438169" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="521" parent="globals/MonCadranDeMontreView" pc="268438172" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="524" parent="globals/MonCadranDeMontreView" pc="268438188" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="525" parent="globals/MonCadranDeMontreView" pc="268438197" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="526" parent="globals/MonCadranDeMontreView" pc="268438214" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="527" parent="globals/MonCadranDeMontreView" pc="268438223" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="531" parent="globals/MonCadranDeMontreView" pc="268438254" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="532" parent="globals/MonCadranDeMontreView" pc="268438258" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="533" parent="globals/MonCadranDeMontreView" pc="268438262" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="535" parent="globals/MonCadranDeMontreView" pc="268438265" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="536" parent="globals/MonCadranDeMontreView" pc="268438289" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="539" parent="globals/MonCadranDeMontreView" pc="268438303" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="546" parent="globals/MonCadranDeMontreView" pc="268438322" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="548" parent="globals/MonCadranDeMontreView" pc="268438331" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="549" parent="globals/MonCadranDeMontreView" pc="268438344" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="552" parent="globals/MonCadranDeMontreView" pc="268438357" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="558" parent="globals/MonCadranDeMontreView" pc="268438372" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="561" parent="globals/MonCadranDeMontreView" pc="268438382" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="12" lineNum="563" parent="globals/MonCadranDeMontreView" pc="268438410" symbol="showHR"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="566" parent="globals/MonCadranDeMontreView" pc="268438433" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="568" parent="globals/MonCadranDeMontreView" pc="268438436" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="569" parent="globals/MonCadranDeMontreView" pc="268438453" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="573" parent="globals/MonCadranDeMontreView" pc="268438456" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="578" parent="globals/MonCadranDeMontreView" pc="268438496" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="579" parent="globals/MonCadranDeMontreView" pc="268438500" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="586" parent="globals/MonCadranDeMontreView" pc="268438510" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="588" parent="globals/MonCadranDeMontreView" pc="268438533" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="591" parent="globals/MonCadranDeMontreView" pc="268438547" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="598" parent="globals/MonCadranDeMontreView" pc="268438567" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="604" parent="globals/MonCadranDeMontreView" pc="268438576" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="609" parent="globals/MonCadranDeMontreView" pc="268438591" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="613" parent="globals/MonCadranDeMontreView" pc="268438604" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="13" lineNum="615" parent="globals/MonCadranDeMontreView" pc="268438611" symbol="showBattery"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="14" lineNum="46" parent="globals/MonCadranDeMontreView" pc="268438634" symbol="initialize"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="14" lineNum="48" parent="globals/MonCadranDeMontreView" pc="268438636" symbol="initialize"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="92" parent="globals/MonCadranDeMontreView" pc="268438653" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="94" parent="globals/MonCadranDeMontreView" pc="268438656" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="95" parent="globals/MonCadranDeMontreView" pc="268438665" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="98" parent="globals/MonCadranDeMontreView" pc="268438674" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="99" parent="globals/MonCadranDeMontreView" pc="268438681" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="100" parent="globals/MonCadranDeMontreView" pc="268438691" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="101" parent="globals/MonCadranDeMontreView" pc="268438698" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="102" parent="globals/MonCadranDeMontreView" pc="268438708" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="106" parent="globals/MonCadranDeMontreView" pc="268438715" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="107" parent="globals/MonCadranDeMontreView" pc="268438734" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="111" parent="globals/MonCadranDeMontreView" pc="268438738" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="112" parent="globals/MonCadranDeMontreView" pc="268438744" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="113" parent="globals/MonCadranDeMontreView" pc="268438750" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="114" parent="globals/MonCadranDeMontreView" pc="268438767" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="114" parent="globals/MonCadranDeMontreView" pc="268438778" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="115" parent="globals/MonCadranDeMontreView" pc="268438788" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="115" parent="globals/MonCadranDeMontreView" pc="268438799" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="119" parent="globals/MonCadranDeMontreView" pc="268438819" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="120" parent="globals/MonCadranDeMontreView" pc="268438822" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="121" parent="globals/MonCadranDeMontreView" pc="268438828" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="122" parent="globals/MonCadranDeMontreView" pc="268438845" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="122" parent="globals/MonCadranDeMontreView" pc="268438865" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="125" parent="globals/MonCadranDeMontreView" pc="268438888" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="126" parent="globals/MonCadranDeMontreView" pc="268438895" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="127" parent="globals/MonCadranDeMontreView" pc="268438906" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="129" parent="globals/MonCadranDeMontreView" pc="268438919" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="132" parent="globals/MonCadranDeMontreView" pc="268438922" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="133" parent="globals/MonCadranDeMontreView" pc="268438929" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="134" parent="globals/MonCadranDeMontreView" pc="268438936" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="135" parent="globals/MonCadranDeMontreView" pc="268438943" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="135" parent="globals/MonCadranDeMontreView" pc="268438950" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="138" parent="globals/MonCadranDeMontreView" pc="268438957" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="139" parent="globals/MonCadranDeMontreView" pc="268438961" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="140" parent="globals/MonCadranDeMontreView" pc="268438965" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="142" parent="globals/MonCadranDeMontreView" pc="268438969" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="144" parent="globals/MonCadranDeMontreView" pc="268438985" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="147" parent="globals/MonCadranDeMontreView" pc="268439009" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="148" parent="globals/MonCadranDeMontreView" pc="268439022" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="151" parent="globals/MonCadranDeMontreView" pc="268439035" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="152" parent="globals/MonCadranDeMontreView" pc="268439039" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="153" parent="globals/MonCadranDeMontreView" pc="268439068" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="154" parent="globals/MonCadranDeMontreView" pc="268439081" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="157" parent="globals/MonCadranDeMontreView" pc="268439097" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="159" parent="globals/MonCadranDeMontreView" pc="268439105" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="160" parent="globals/MonCadranDeMontreView" pc="268439122" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="163" parent="globals/MonCadranDeMontreView" pc="268439160" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="164" parent="globals/MonCadranDeMontreView" pc="268439176" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="165" parent="globals/MonCadranDeMontreView" pc="268439193" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="170" parent="globals/MonCadranDeMontreView" pc="268439237" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="171" parent="globals/MonCadranDeMontreView" pc="268439254" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="174" parent="globals/MonCadranDeMontreView" pc="268439270" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="175" parent="globals/MonCadranDeMontreView" pc="268439278" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="176" parent="globals/MonCadranDeMontreView" pc="268439295" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="180" parent="globals/MonCadranDeMontreView" pc="268439314" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="181" parent="globals/MonCadranDeMontreView" pc="268439330" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="184" parent="globals/MonCadranDeMontreView" pc="268439351" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="185" parent="globals/MonCadranDeMontreView" pc="268439355" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="186" parent="globals/MonCadranDeMontreView" pc="268439359" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="190" parent="globals/MonCadranDeMontreView" pc="268439373" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="191" parent="globals/MonCadranDeMontreView" pc="268439390" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="192" parent="globals/MonCadranDeMontreView" pc="268439430" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="195" parent="globals/MonCadranDeMontreView" pc="268439470" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="203" parent="globals/MonCadranDeMontreView" pc="268439508" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="212" parent="globals/MonCadranDeMontreView" pc="268439532" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="213" parent="globals/MonCadranDeMontreView" pc="268439549" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="214" parent="globals/MonCadranDeMontreView" pc="268439589" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="216" parent="globals/MonCadranDeMontreView" pc="268439596" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="224" parent="globals/MonCadranDeMontreView" pc="268439621" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="233" parent="globals/MonCadranDeMontreView" pc="268439646" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="234" parent="globals/MonCadranDeMontreView" pc="268439663" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="235" parent="globals/MonCadranDeMontreView" pc="268439673" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="236" parent="globals/MonCadranDeMontreView" pc="268439686" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="15" lineNum="238" parent="globals/MonCadranDeMontreView" pc="268439761" symbol="drawTemperatureGraph2"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="791" parent="globals/MonCadranDeMontreView" pc="268439781" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="794" parent="globals/MonCadranDeMontreView" pc="268439784" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="795" parent="globals/MonCadranDeMontreView" pc="268439804" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="797" parent="globals/MonCadranDeMontreView" pc="268439816" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="800" parent="globals/MonCadranDeMontreView" pc="268439825" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="805" parent="globals/MonCadranDeMontreView" pc="268439845" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="806" parent="globals/MonCadranDeMontreView" pc="268439854" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="807" parent="globals/MonCadranDeMontreView" pc="268439863" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="808" parent="globals/MonCadranDeMontreView" pc="268439884" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="809" parent="globals/MonCadranDeMontreView" pc="268439891" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="810" parent="globals/MonCadranDeMontreView" pc="268439907" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="812" parent="globals/MonCadranDeMontreView" pc="268439917" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="813" parent="globals/MonCadranDeMontreView" pc="268439924" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="814" parent="globals/MonCadranDeMontreView" pc="268439934" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="817" parent="globals/MonCadranDeMontreView" pc="268439941" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="820" parent="globals/MonCadranDeMontreView" pc="268439956" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="821" parent="globals/MonCadranDeMontreView" pc="268439975" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="824" parent="globals/MonCadranDeMontreView" pc="268440014" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="827" parent="globals/MonCadranDeMontreView" pc="268440053" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="830" parent="globals/MonCadranDeMontreView" pc="268440074" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="832" parent="globals/MonCadranDeMontreView" pc="268440101" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="835" parent="globals/MonCadranDeMontreView" pc="268440154" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="838" parent="globals/MonCadranDeMontreView" pc="268440175" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="844" parent="globals/MonCadranDeMontreView" pc="268440196" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="845" parent="globals/MonCadranDeMontreView" pc="268440208" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="846" parent="globals/MonCadranDeMontreView" pc="268440216" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="847" parent="globals/MonCadranDeMontreView" pc="268440224" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="848" parent="globals/MonCadranDeMontreView" pc="268440233" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="863" parent="globals/MonCadranDeMontreView" pc="268440245" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="870" parent="globals/MonCadranDeMontreView" pc="268440302" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="872" parent="globals/MonCadranDeMontreView" pc="268440311" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="874" parent="globals/MonCadranDeMontreView" pc="268440321" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01View.mc" id="16" lineNum="886" parent="globals/MonCadranDeMontreView" pc="268440338" symbol="onUpdate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="17" lineNum="49" parent="globals/forunner265_01App" pc="268440362" symbol="getDateData"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="17" lineNum="50" parent="globals/forunner265_01App" pc="268440364" symbol="getDateData"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="18" lineNum="124" parent="globals/forunner265_01App" pc="268440370" symbol="getTideData"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="18" lineNum="125" parent="globals/forunner265_01App" pc="268440372" symbol="getTideData"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="79" parent="globals/forunner265_01App" pc="268440378" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="80" parent="globals/forunner265_01App" pc="268440381" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="83" parent="globals/forunner265_01App" pc="268440405" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="84" parent="globals/forunner265_01App" pc="268440423" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="85" parent="globals/forunner265_01App" pc="268440433" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="86" parent="globals/forunner265_01App" pc="268440445" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="89" parent="globals/forunner265_01App" pc="268440463" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="90" parent="globals/forunner265_01App" pc="268440479" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="91" parent="globals/forunner265_01App" pc="268440486" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="92" parent="globals/forunner265_01App" pc="268440496" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="93" parent="globals/forunner265_01App" pc="268440506" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="97" parent="globals/forunner265_01App" pc="268440516" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="104" parent="globals/forunner265_01App" pc="268440620" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="105" parent="globals/forunner265_01App" pc="268440642" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="106" parent="globals/forunner265_01App" pc="268440674" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="107" parent="globals/forunner265_01App" pc="268440712" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="111" parent="globals/forunner265_01App" pc="268440731" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="116" parent="globals/forunner265_01App" pc="268440746" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="19" lineNum="120" parent="globals/forunner265_01App" pc="268440761" symbol="onReceiveTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="20" lineNum="130" parent="globals/forunner265_01App" pc="268440773" symbol="getInitialView"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="20" lineNum="134" parent="globals/forunner265_01App" pc="268440775" symbol="getInitialView"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="20" lineNum="135" parent="globals/forunner265_01App" pc="268440793" symbol="getInitialView"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="21" lineNum="15" parent="globals/forunner265_01App" pc="268440819" symbol="initialize"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="21" lineNum="16" parent="globals/forunner265_01App" pc="268440821" symbol="initialize"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="53" parent="globals/forunner265_01App" pc="268440834" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="54" parent="globals/forunner265_01App" pc="268440837" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="57" parent="globals/forunner265_01App" pc="268440855" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="58" parent="globals/forunner265_01App" pc="268440862" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="62" parent="globals/forunner265_01App" pc="268440869" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="63" parent="globals/forunner265_01App" pc="268440895" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="65" parent="globals/forunner265_01App" pc="268440971" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="69" parent="globals/forunner265_01App" pc="268441009" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="22" lineNum="75" parent="globals/forunner265_01App" pc="268441031" symbol="getTideInfo"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="18" parent="globals/forunner265_01App" pc="268441063" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="19" parent="globals/forunner265_01App" pc="268441066" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="20" parent="globals/forunner265_01App" pc="268441078" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="24" parent="globals/forunner265_01App" pc="268441096" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="25" parent="globals/forunner265_01App" pc="268441103" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="26" parent="globals/forunner265_01App" pc="268441109" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="27" parent="globals/forunner265_01App" pc="268441128" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="28" parent="globals/forunner265_01App" pc="268441147" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="29" parent="globals/forunner265_01App" pc="268441166" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="30" parent="globals/forunner265_01App" pc="268441185" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="31" parent="globals/forunner265_01App" pc="268441204" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="32" parent="globals/forunner265_01App" pc="268441223" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="26" parent="globals/forunner265_01App" pc="268441245" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="26" parent="globals/forunner265_01App" pc="268441252" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="27" parent="globals/forunner265_01App" pc="268441255" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="27" parent="globals/forunner265_01App" pc="268441262" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="28" parent="globals/forunner265_01App" pc="268441265" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="28" parent="globals/forunner265_01App" pc="268441272" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="29" parent="globals/forunner265_01App" pc="268441275" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="29" parent="globals/forunner265_01App" pc="268441282" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="30" parent="globals/forunner265_01App" pc="268441285" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="30" parent="globals/forunner265_01App" pc="268441292" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="31" parent="globals/forunner265_01App" pc="268441295" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="31" parent="globals/forunner265_01App" pc="268441302" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="32" parent="globals/forunner265_01App" pc="268441305" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="32" parent="globals/forunner265_01App" pc="268441312" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="37" parent="globals/forunner265_01App" pc="268441316" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/source/forunner265_01App.mc" id="23" lineNum="41" parent="globals/forunner265_01App" pc="268441324" symbol="formatCurrentDate"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/bin/gen/006-B4257-00/source/Rez.mcgen" id="24" lineNum="23" parent="globals/Rez/Layouts" pc="268441372" symbol="WatchFace"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/bin/gen/006-B4257-00/source/Rez.mcgen" id="24" lineNum="24" parent="globals/Rez/Layouts" pc="268441383" symbol="WatchFace"/>
+        <entry filename="/Users/Shared/Previously Relocated Items/Security/pascal/projet IQ connect/premiereHorloge/forrunner265-01/forunner265-01/bin/gen/006-B4257-00/source/Rez.mcgen" id="24" lineNum="26" parent="globals/Rez/Layouts" pc="268441499" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="19" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;lastOptionCoucherSoleil&gt;"/>
+        <entry id="8390141" method="true" object="true" symbol="test"/>
+        <entry id="28" method="true" symbol="showTemperatureGraph"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="27" method="true" symbol="showTemperature"/>
+        <entry id="48" symbol="dayOfWeek"/>
+        <entry id="21" method="true" symbol="showAltitude"/>
+        <entry field="true" id="46" symbol="BebasNeueRegular"/>
+        <entry id="16" method="true" symbol="drawTemperatureGraph2"/>
+        <entry id="7" object="true" symbol="MonCadranDeMontreView"/>
+        <entry field="true" id="8388938" symbol="month"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="45" symbol="TemperatureIcon"/>
+        <entry field="true" id="12" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;altitudeIcon&gt;"/>
+        <entry field="true" id="47" symbol="AppName"/>
+        <entry field="true" id="15" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;dateLabel&gt;"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8389338" symbol="minute"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="22" method="true" symbol="showBattery"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="37" method="true" symbol="getTideInfo"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8" object="true" symbol="forunner265_01App"/>
+        <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="17" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;heartIcon&gt;"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="44" symbol="SoleilIcon"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="11" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;Orange_color&gt;"/>
+        <entry id="23" method="true" symbol="showCoucheSoleil"/>
+        <entry id="34" method="true" symbol="formatCurrentDate"/>
+        <entry field="true" id="13" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;background&gt;"/>
+        <entry id="26" method="true" symbol="showPas"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="18" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;lastClockTime&gt;"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry field="true" id="33" symbol="dateDisplayString"/>
+        <entry field="true" id="42" symbol="HeartIcon"/>
+        <entry id="36" method="true" symbol="getTideData"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry field="true" id="31" symbol="timeFont"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="8388720" symbol="hour"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="39" symbol="tideDisplayString"/>
+        <entry field="true" id="43" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="10" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;Green_color&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="24" method="true" symbol="showDate"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="8390146" module="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="41" symbol="BatteryIcon"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry field="true" id="8388939" symbol="day"/>
+        <entry id="8389781" module="true" symbol="SensorHistory"/>
+        <entry field="true" id="8388940" symbol="year"/>
+        <entry id="32" module="true" symbol="Layouts"/>
+        <entry field="true" id="29" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;soleilIcon&gt;"/>
+        <entry field="true" id="30" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;temperatureIcon&gt;"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry field="true" id="14" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;batteryIcon&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="40" symbol="AltitudeIcon"/>
+        <entry id="35" method="true" symbol="getDateData"/>
+        <entry field="true" id="20" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;lightgray_color&gt;"/>
+        <entry field="true" id="9" symbol="&lt;globals/MonCadranDeMontreView/&lt;&gt;Blue_color&gt;"/>
+        <entry id="38" method="true" symbol="onReceiveTideInfo"/>
+        <entry id="25" method="true" symbol="showHR"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436154" name="dc" stackId="1" startPc="268435568"/>
+        <entry arg="true" endPc="268436154" name="posX" stackId="2" startPc="268435568"/>
+        <entry arg="true" endPc="268436154" name="posY" stackId="3" startPc="268435568"/>
+        <entry endPc="268436153" name="textFunction" stackId="4" startPc="268435571"/>
+        <entry endPc="268436153" name="positionSoleil" stackId="5" startPc="268435571"/>
+        <entry endPc="268436153" name="today" stackId="6" startPc="268435571"/>
+        <entry endPc="268436153" name="optionCoucherSoleil" stackId="7" startPc="268435571"/>
+        <entry endPc="268436153" name="todayMoment" stackId="8" startPc="268435571"/>
+        <entry endPc="268436153" name="HeureCoucheSoleil" stackId="9" startPc="268435571"/>
+        <entry endPc="268436153" name="timeInfoCoucheSoleil" stackId="10" startPc="268435571"/>
+        <entry endPc="268436150" name="coucherSoleilString" stackId="11" startPc="268435875"/>
+        <entry endPc="268436150" name="soleilFont" stackId="12" startPc="268435875"/>
+        <entry endPc="268436150" name="soleilXpos" stackId="13" startPc="268435875"/>
+        <entry endPc="268436150" name="soleilYpos" stackId="14" startPc="268435875"/>
+        <entry endPc="268436147" name="soleilIconHeight" stackId="15" startPc="268436054"/>
+        <entry endPc="268436147" name="soleilIconWidth" stackId="16" startPc="268436054"/>
+        <entry endPc="268436147" name="soleilTextWidth" stackId="17" startPc="268436054"/>
+        <entry endPc="268436147" name="soleilIconXPos" stackId="18" startPc="268436054"/>
+        <entry endPc="268436147" name="soleilIconYPos" stackId="19" startPc="268436054"/>
+        <entry arg="true" endPc="268436642" name="dc" stackId="1" startPc="268436155"/>
+        <entry arg="true" endPc="268436642" name="posX" stackId="2" startPc="268436155"/>
+        <entry arg="true" endPc="268436642" name="posY" stackId="3" startPc="268436155"/>
+        <entry endPc="268436641" name="clockTime" stackId="4" startPc="268436158"/>
+        <entry endPc="268436641" name="hours" stackId="5" startPc="268436158"/>
+        <entry endPc="268436641" name="app" stackId="6" startPc="268436158"/>
+        <entry endPc="268436641" name="dateFont" stackId="7" startPc="268436158"/>
+        <entry endPc="268436641" name="dateYpos" stackId="8" startPc="268436158"/>
+        <entry endPc="268436641" name="dateString" stackId="9" startPc="268436158"/>
+        <entry endPc="268436641" name="today" stackId="10" startPc="268436158"/>
+        <entry endPc="268436641" name="optionCoucherSoleil" stackId="11" startPc="268436158"/>
+        <entry endPc="268436641" name="dateWidth" stackId="12" startPc="268436158"/>
+        <entry endPc="268436641" name="dateXpos" stackId="13" startPc="268436158"/>
+        <entry arg="true" endPc="268436951" name="dc" stackId="1" startPc="268436643"/>
+        <entry arg="true" endPc="268436951" name="posX" stackId="2" startPc="268436643"/>
+        <entry arg="true" endPc="268436951" name="posY" stackId="3" startPc="268436643"/>
+        <entry endPc="268436950" name="textFunction" stackId="4" startPc="268436646"/>
+        <entry endPc="268436950" name="tempString" stackId="5" startPc="268436646"/>
+        <entry endPc="268436950" name="tempFont" stackId="6" startPc="268436646"/>
+        <entry endPc="268436950" name="tempIterator" stackId="7" startPc="268436646"/>
+        <entry endPc="268436781" name="tempSample" stackId="8" startPc="268436703"/>
+        <entry endPc="268436778" name="tempC" stackId="9" startPc="268436730"/>
+        <entry endPc="268436950" name="tempXPos" stackId="10" startPc="268436646"/>
+        <entry endPc="268436950" name="tempYPos" stackId="11" startPc="268436646"/>
+        <entry endPc="268436947" name="tempIconHeight" stackId="12" startPc="268436856"/>
+        <entry endPc="268436947" name="tempIconWidth" stackId="13" startPc="268436856"/>
+        <entry endPc="268436947" name="tempTextWidth" stackId="14" startPc="268436856"/>
+        <entry endPc="268436947" name="tempIconXPos" stackId="15" startPc="268436856"/>
+        <entry endPc="268436947" name="tempIconYPos" stackId="16" startPc="268436856"/>
+        <entry arg="true" endPc="268437134" name="dc" stackId="1" startPc="268436952"/>
+        <entry arg="true" endPc="268437134" name="posX" stackId="2" startPc="268436952"/>
+        <entry arg="true" endPc="268437134" name="posY" stackId="3" startPc="268436952"/>
+        <entry endPc="268437133" name="textFunction" stackId="4" startPc="268436955"/>
+        <entry endPc="268437133" name="info" stackId="5" startPc="268436955"/>
+        <entry endPc="268437133" name="steps" stackId="6" startPc="268436955"/>
+        <entry endPc="268437133" name="stepGoal" stackId="7" startPc="268436955"/>
+        <entry endPc="268437133" name="stepString" stackId="8" startPc="268436955"/>
+        <entry endPc="268437133" name="stepFont" stackId="9" startPc="268436955"/>
+        <entry endPc="268437133" name="fontHeight" stackId="10" startPc="268436955"/>
+        <entry endPc="268437133" name="stepsYPos" stackId="11" startPc="268436955"/>
+        <entry arg="true" endPc="268437355" name="dc" stackId="1" startPc="268437135"/>
+        <entry arg="true" endPc="268437355" name="posX" stackId="2" startPc="268437135"/>
+        <entry arg="true" endPc="268437355" name="posY" stackId="3" startPc="268437135"/>
+        <entry endPc="268437354" name="altString" stackId="4" startPc="268437138"/>
+        <entry endPc="268437354" name="positionInfo" stackId="5" startPc="268437138"/>
+        <entry endPc="268437354" name="altFont" stackId="6" startPc="268437138"/>
+        <entry endPc="268437354" name="altPosX" stackId="7" startPc="268437138"/>
+        <entry endPc="268437354" name="altPosY" stackId="8" startPc="268437138"/>
+        <entry endPc="268437239" name="altitude" stackId="9" startPc="268437185"/>
+        <entry endPc="268437351" name="altitudeiconWidth" stackId="10" startPc="268437288"/>
+        <entry endPc="268437351" name="altTextWidth" stackId="11" startPc="268437288"/>
+        <entry endPc="268437351" name="altIconXPos" stackId="12" startPc="268437288"/>
+        <entry endPc="268437351" name="altIconYPos" stackId="13" startPc="268437288"/>
+        <entry arg="true" endPc="268437415" name="dc" stackId="1" startPc="268437356"/>
+        <entry endPc="268437414" name="textfunction" stackId="2" startPc="268437359"/>
+        <entry arg="true" endPc="268437917" name="dc" stackId="1" startPc="268437416"/>
+        <entry endPc="268437916" name="timefontHeight" stackId="2" startPc="268437419"/>
+        <entry arg="true" endPc="268438158" name="dc" stackId="1" startPc="268437918"/>
+        <entry arg="true" endPc="268438158" name="posX" stackId="2" startPc="268437918"/>
+        <entry arg="true" endPc="268438158" name="posY" stackId="3" startPc="268437918"/>
+        <entry endPc="268438157" name="newClock" stackId="4" startPc="268437921"/>
+        <entry endPc="268438157" name="newValueClock" stackId="5" startPc="268437921"/>
+        <entry endPc="268438157" name="lastValueClock" stackId="6" startPc="268437921"/>
+        <entry endPc="268438154" name="hourlyForecast" stackId="7" startPc="268437983"/>
+        <entry endPc="268438151" name="temperatures" stackId="8" startPc="268438032"/>
+        <entry endPc="268438151" name="precipitation" stackId="9" startPc="268438032"/>
+        <entry endPc="268438151" name="maxPoints" stackId="10" startPc="268438032"/>
+        <entry endPc="268438128" name="i" stackId="11" startPc="268438072"/>
+        <entry endPc="268438118" name="forecast" stackId="12" startPc="268438072"/>
+        <entry endPc="268438118" name="temp" stackId="13" startPc="268438072"/>
+        <entry endPc="268438118" name="prec" stackId="14" startPc="268438072"/>
+        <entry arg="true" endPc="268438432" name="dc" stackId="1" startPc="268438159"/>
+        <entry arg="true" endPc="268438432" name="posX" stackId="2" startPc="268438159"/>
+        <entry arg="true" endPc="268438432" name="posY" stackId="3" startPc="268438159"/>
+        <entry endPc="268438431" name="hrString" stackId="4" startPc="268438162"/>
+        <entry endPc="268438431" name="heartRate" stackId="5" startPc="268438162"/>
+        <entry endPc="268438431" name="hrIterator" stackId="6" startPc="268438162"/>
+        <entry endPc="268438431" name="hrSample" stackId="7" startPc="268438162"/>
+        <entry endPc="268438431" name="hrYPos" stackId="8" startPc="268438162"/>
+        <entry endPc="268438431" name="hrXPos" stackId="9" startPc="268438162"/>
+        <entry endPc="268438431" name="hrFont" stackId="10" startPc="268438162"/>
+        <entry endPc="268438431" name="hrColor" stackId="11" startPc="268438162"/>
+        <entry endPc="268438428" name="iconHrHeight" stackId="12" startPc="268438331"/>
+        <entry endPc="268438428" name="iconHrWidth" stackId="13" startPc="268438331"/>
+        <entry endPc="268438428" name="hrTextWidth" stackId="14" startPc="268438331"/>
+        <entry endPc="268438428" name="iconXPos" stackId="15" startPc="268438331"/>
+        <entry endPc="268438428" name="iconYPos" stackId="16" startPc="268438331"/>
+        <entry arg="true" endPc="268438633" name="dc" stackId="1" startPc="268438433"/>
+        <entry arg="true" endPc="268438633" name="posX" stackId="2" startPc="268438433"/>
+        <entry arg="true" endPc="268438633" name="posY" stackId="3" startPc="268438433"/>
+        <entry endPc="268438632" name="batteryLevel" stackId="4" startPc="268438436"/>
+        <entry endPc="268438632" name="batteryFont" stackId="5" startPc="268438436"/>
+        <entry endPc="268438632" name="batteryString" stackId="6" startPc="268438436"/>
+        <entry endPc="268438632" name="batteryXPos" stackId="7" startPc="268438436"/>
+        <entry endPc="268438632" name="batteryYPos" stackId="8" startPc="268438436"/>
+        <entry endPc="268438632" name="batteryColor" stackId="9" startPc="268438436"/>
+        <entry endPc="268438629" name="batTextWidth" stackId="10" startPc="268438576"/>
+        <entry endPc="268438629" name="batIconXPos" stackId="11" startPc="268438576"/>
+        <entry endPc="268438629" name="batIconYPos" stackId="12" startPc="268438576"/>
+        <entry arg="true" endPc="268439780" name="dc" stackId="1" startPc="268438653"/>
+        <entry arg="true" endPc="268439780" name="temps" stackId="2" startPc="268438653"/>
+        <entry arg="true" endPc="268439780" name="precipitations" stackId="3" startPc="268438653"/>
+        <entry arg="true" endPc="268439780" name="posX" stackId="4" startPc="268438653"/>
+        <entry arg="true" endPc="268439780" name="posY" stackId="5" startPc="268438653"/>
+        <entry endPc="268439779" name="width" stackId="6" startPc="268438656"/>
+        <entry endPc="268439779" name="height" stackId="7" startPc="268438656"/>
+        <entry endPc="268439779" name="graphHeight" stackId="8" startPc="268438656"/>
+        <entry endPc="268439779" name="graphYStart" stackId="9" startPc="268438656"/>
+        <entry endPc="268439779" name="graphXStart" stackId="10" startPc="268438656"/>
+        <entry endPc="268439779" name="graphXEnd" stackId="11" startPc="268438656"/>
+        <entry endPc="268439779" name="graphWidth" stackId="12" startPc="268438656"/>
+        <entry endPc="268439779" name="minTemp" stackId="13" startPc="268438656"/>
+        <entry endPc="268439779" name="maxTemp" stackId="14" startPc="268438656"/>
+        <entry endPc="268438818" name="i" stackId="15" startPc="268438767"/>
+        <entry endPc="268439779" name="maxPrecip" stackId="16" startPc="268438656"/>
+        <entry endPc="268438884" name="i" stackId="17" startPc="268438845"/>
+        <entry endPc="268439779" name="precipRange" stackId="18" startPc="268438656"/>
+        <entry endPc="268439779" name="minPrecip" stackId="19" startPc="268438656"/>
+        <entry endPc="268439779" name="tempRange" stackId="20" startPc="268438656"/>
+        <entry endPc="268439779" name="prevX" stackId="21" startPc="268438656"/>
+        <entry endPc="268439779" name="prevYTemp" stackId="22" startPc="268438656"/>
+        <entry endPc="268439779" name="prevYPrecip" stackId="23" startPc="268438656"/>
+        <entry endPc="268439372" name="i" stackId="24" startPc="268438985"/>
+        <entry endPc="268439362" name="currentX" stackId="25" startPc="268438985"/>
+        <entry endPc="268439362" name="tempNormalized" stackId="26" startPc="268438985"/>
+        <entry endPc="268439362" name="currentYTemp" stackId="27" startPc="268438985"/>
+        <entry endPc="268439362" name="currentYPrecip" stackId="28" startPc="268438985"/>
+        <entry endPc="268439093" name="precipNormalized" stackId="29" startPc="268439068"/>
+        <entry endPc="268439779" name="maxTempFormat" stackId="30" startPc="268438656"/>
+        <entry endPc="268439779" name="minTempFormat" stackId="31" startPc="268438656"/>
+        <entry endPc="268439779" name="maxPrecipFormat" stackId="32" startPc="268438656"/>
+        <entry endPc="268439779" name="minPrecipFormat" stackId="33" startPc="268438656"/>
+        <entry endPc="268439779" name="lastClockTimeX" stackId="34" startPc="268438656"/>
+        <entry endPc="268439779" name="lastClockTimeY" stackId="35" startPc="268438656"/>
+        <entry endPc="268439779" name="lastClockTimeXString" stackId="36" startPc="268438656"/>
+        <entry arg="true" endPc="268440361" name="dc" stackId="1" startPc="268439781"/>
+        <entry endPc="268440360" name="app" stackId="2" startPc="268439784"/>
+        <entry endPc="268440360" name="width" stackId="3" startPc="268439784"/>
+        <entry endPc="268440360" name="height" stackId="4" startPc="268439784"/>
+        <entry endPc="268440360" name="currentFont" stackId="5" startPc="268439784"/>
+        <entry endPc="268440360" name="fontHeight" stackId="6" startPc="268439784"/>
+        <entry endPc="268440360" name="timeYpos" stackId="7" startPc="268439784"/>
+        <entry endPc="268440360" name="graphHeight" stackId="8" startPc="268439784"/>
+        <entry endPc="268440360" name="graphYStart" stackId="9" startPc="268439784"/>
+        <entry endPc="268440360" name="graphXStart" stackId="10" startPc="268439784"/>
+        <entry endPc="268440360" name="timefontHeight" stackId="11" startPc="268439784"/>
+        <entry endPc="268440360" name="now" stackId="12" startPc="268439784"/>
+        <entry endPc="268440360" name="hours" stackId="13" startPc="268439784"/>
+        <entry endPc="268440360" name="min" stackId="14" startPc="268439784"/>
+        <entry endPc="268440360" name="timeString" stackId="15" startPc="268439784"/>
+        <entry endPc="268440360" name="timeXpos" stackId="16" startPc="268439784"/>
+        <entry arg="true" endPc="268440772" name="responseCode" stackId="1" startPc="268440378"/>
+        <entry arg="true" endPc="268440772" name="data" stackId="2" startPc="268440378"/>
+        <entry endPc="268440727" name="previsions" stackId="3" startPc="268440423"/>
+        <entry endPc="268440727" name="nowMoment" stackId="4" startPc="268440423"/>
+        <entry endPc="268440727" name="dateInfo" stackId="5" startPc="268440423"/>
+        <entry endPc="268440727" name="i" stackId="6" startPc="268440479"/>
+        <entry endPc="268440717" name="prevision" stackId="7" startPc="268440479"/>
+        <entry endPc="268440717" name="type" stackId="8" startPc="268440479"/>
+        <entry endPc="268440717" name="time" stackId="9" startPc="268440479"/>
+        <entry endPc="268440717" name="height" stackId="10" startPc="268440479"/>
+        <entry endPc="268440717" name="tideMoment" stackId="11" startPc="268440479"/>
+        <entry endPc="268440714" name="typeString" stackId="12" startPc="268440642"/>
+        <entry endPc="268441061" name="apiKey" stackId="1" startPc="268440837"/>
+        <entry endPc="268441061" name="portId" stackId="2" startPc="268440837"/>
+        <entry endPc="268441061" name="dateNow" stackId="3" startPc="268440837"/>
+        <entry endPc="268441061" name="dateString" stackId="4" startPc="268440837"/>
+        <entry endPc="268441061" name="url" stackId="5" startPc="268440837"/>
+        <entry endPc="268441061" name="options" stackId="6" startPc="268440837"/>
+        <entry endPc="268441370" name="now" stackId="1" startPc="268441066"/>
+        <entry endPc="268441370" name="info" stackId="2" startPc="268441066"/>
+        <entry endPc="268441370" name="dayOfWeekString" stackId="3" startPc="268441066"/>
+        <entry endPc="268441370" name="monthString" stackId="4" startPc="268441066"/>
+        <entry arg="true" endPc="268441508" name="dc" stackId="1" startPc="268441372"/>
+        <entry endPc="268441508" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268441383"/>
+    </localVars>
+    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4257-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TemperatureIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="BebasNeueRegular"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="SoleilIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="AltitudeIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatteryIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Background"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="HeartIcon"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/MonCadranDeMontreView" offset="125" parentId="globals" symbolId="MonCadranDeMontreView" type="class"/>
+        <dataEntry label="globals/Rez" offset="403" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/forunner265_01App" offset="465" parentId="globals" symbolId="forunner265_01App" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="581" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="670" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="705" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="740" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435535" name="&lt;init&gt;" parent="MonCadranDeMontreView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435555" name="&lt;init&gt;" parent="Rez" startPc="268435536">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435567" name="&lt;init&gt;" parent="forunner265_01App" startPc="268435556">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436154" name="showCoucheSoleil" parent="MonCadranDeMontreView" startPc="268435568">
+            <param id="dc"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436642" name="showDate" parent="MonCadranDeMontreView" startPc="268436155">
+            <param id="dc"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436951" name="showTemperature" parent="MonCadranDeMontreView" startPc="268436643">
+            <param id="dc"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437134" name="showPas" parent="MonCadranDeMontreView" startPc="268436952">
+            <param id="dc"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437355" name="showAltitude" parent="MonCadranDeMontreView" startPc="268437135">
+            <param id="dc"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437415" name="test" parent="MonCadranDeMontreView" startPc="268437356">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437917" name="onLayout" parent="MonCadranDeMontreView" startPc="268437416">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Charger vos ressources ici<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438158" name="showTemperatureGraph" parent="MonCadranDeMontreView" startPc="268437918">
+            <param id="dc"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438432" name="showHR" parent="MonCadranDeMontreView" startPc="268438159">
+            <param id="dc"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438633" name="showBattery" parent="MonCadranDeMontreView" startPc="268438433">
+            <param id="dc"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438652" name="initialize" parent="MonCadranDeMontreView" startPc="268438634">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439780" name="drawTemperatureGraph2" parent="MonCadranDeMontreView" startPc="268438653">
+            <param id="dc"/>
+            <param id="temps"/>
+            <param id="precipitations"/>
+            <param id="posX"/>
+            <param id="posY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440361" name="onUpdate" parent="MonCadranDeMontreView" startPc="268439781">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440369" name="getDateData" parent="forunner265_01App" startPc="268440362">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440377" name="getTideData" parent="forunner265_01App" startPc="268440370">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440772" name="onReceiveTideInfo" parent="forunner265_01App" startPc="268440378">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440818" name="getInitialView" parent="forunner265_01App" startPc="268440773">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440833" name="initialize" parent="forunner265_01App" startPc="268440819">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441062" name="getTideInfo" parent="forunner265_01App" startPc="268440834">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441371" name="formatCurrentDate" parent="forunner265_01App" startPc="268441063">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441508" name="WatchFace" parent="Layouts" startPc="268441372">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
