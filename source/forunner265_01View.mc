@@ -1,5 +1,5 @@
 // Fichier : source/MonCadranDeMontreView.mc
-//test
+// test0203
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
