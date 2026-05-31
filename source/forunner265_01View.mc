@@ -26,6 +26,7 @@ class MonCadranDeMontreView extends Ui.WatchFace {
     private var background as Ui.BitmapResource or Null;
     private var soleilIcon as Ui.BitmapResource or Null;
     private var lastClockTime = Sys.getClockTime();
+    private var lastSync ;
     private var lastOptionCoucherSoleil  = {
             :year   => 0,
             :month  => 0,
@@ -39,14 +40,34 @@ class MonCadranDeMontreView extends Ui.WatchFace {
     private var Green_color;
     private var Blue_color;
     private var lightgray_color;
+    private var backupBuffer = null; // Pour stocker la zone sauvegardée
+    private var backupBufferX;
+    private var backupBufferY;
+    private var backupBufferDimX;
+    private var backupBufferDimY;
 
-
+    private var temperatures = [];
+    private var precipitation = [];
+    
     // ✅ CORRECTION APPLIQUÉE ICI : 
     // Initialisation de la classe enfant et appel de la méthode du parent.
     function initialize() {
         // Appelle la méthode d'initialisation de la classe WatchFace
         Ui.WatchFace.initialize(); 
+        Green_color = Gfx.createColor(255,160,209,177);
+        Orange_color = Gfx.createColor(255,247,168,19);
+        Blue_color = Gfx.createColor(255,96,164,226);
+        lightgray_color = Gfx.createColor(255,129,133,135);
+
+        timeFont = Ui.loadResource(Rez.Fonts.BebasNeueRegular) ;
         
+        background = Ui.loadResource(Rez.Drawables.Background);
+        heartIcon = Ui.loadResource(Rez.Drawables.HeartIcon);
+        batteryIcon = Ui.loadResource(Rez.Drawables.BatteryIcon);
+        altitudeIcon = Ui.loadResource(Rez.Drawables.AltitudeIcon);
+        temperatureIcon = Ui.loadResource(Rez.Drawables.TemperatureIcon);
+        soleilIcon = Ui.loadResource(Rez.Drawables.SoleilIcon);
+
         // Ou, de manière plus générique, vous pouvez utiliser :
         // Super.initialize(); 
     }
@@ -55,18 +76,9 @@ class MonCadranDeMontreView extends Ui.WatchFace {
     function onLayout(dc as Gfx.Dc) as Void {
         //System.println("DEBUG: onLayout appelée.");
         // Charge la ressource en utilisant l'ID défini dans le XML (Rez.Fonts.ID_DE_VOTRE_POLICE)
-
-        timeFont = Ui.loadResource(Rez.Fonts.BebasNeueRegular) ;
+  
         var timefontHeight = Gfx.getFontHeight(timeFont);
 
-        Green_color = Gfx.createColor(255,160,209,177);
-        Orange_color = Gfx.createColor(255,230,146,215);
-        Blue_color = Gfx.createColor(255,96,164,226);
-        lightgray_color = Gfx.createColor(255,129,133,135);
-      
-        //Orange_color = Gfx.COLOR_RGB(160,209,177);
-        //Green_color = Gfx.COLOR_RGB(160,209,177);
-        
 
         //Sys.println("timeFont: timefontHeight:"+timefontHeight);
         //timeFont = Gfx.FONT_LARGE;
@@ -78,24 +90,19 @@ class MonCadranDeMontreView extends Ui.WatchFace {
             :font => Gfx.FONT_XTINY, // Une petite police est souvent suffisante
             :color => Gfx.COLOR_WHITE
         });
-        background = Ui.loadResource(Rez.Drawables.Background);
-        heartIcon = Ui.loadResource(Rez.Drawables.HeartIcon);
-        batteryIcon = Ui.loadResource(Rez.Drawables.BatteryIcon);
-        altitudeIcon = Ui.loadResource(Rez.Drawables.AltitudeIcon);
-        temperatureIcon = Ui.loadResource(Rez.Drawables.TemperatureIcon);
-        soleilIcon = Ui.loadResource(Rez.Drawables.SoleilIcon);
+        
         
     }
     
 
     
-     function drawTemperatureGraph2(dc as Gfx.Dc, temps,precipitations,posX,posY ) as Void {
-        
+    function drawTemperatureGraph2(dc as Gfx.Dc, temps,precipitations,posX,posY ) as Void {
+        var fonctioName="drawTemperatureGraph2(dc as Gfx.Dc, temps,precipitations,posX,posY ) ";
         var width = dc.getWidth();
         var height = dc.getHeight();
-        
+        Sys.println("DEBUG::"+fonctioName+" \ntemps:"+temps+" \nprecipitations:"+precipitations);
         // Définir la zone où le graphique sera dessiné (Ex: bas de l'écran)
-        var graphHeight = height / 3; // Graphique de 1/5e de la hauteur de l'écran
+        var graphHeight = height / 3; // Graphique de 1/3e de la hauteur de l'écran
         var graphYStart = height - graphHeight - 65; // Commencer juste au-dessus du "GARMIN"
         var graphXStart = width/6; 
         var graphXEnd = width - width/6;
@@ -230,10 +237,13 @@ class MonCadranDeMontreView extends Ui.WatchFace {
         );
         // Étiquette Heure Actuelle
         //ici
+        Sys.println("DEBUG::"+fonctioName+"Dessin heure lastSync");
         dc.setColor(lightgray_color, Gfx.COLOR_TRANSPARENT);
         var lastClockTimeX = graphXStart + graphWidth / 2;
         var lastClockTimeY = (graphYStart + graphHeight / 2) + 40;
-        var lastClockTimeXString = Lang.format("$1$:$2$", [lastClockTime.hour.format("%02d"), lastClockTime.min.format("%02d")]);
+        var lastClockTimeXString = Lang.format("$1$:$2$", [lastSync.hour.format("%02d"), lastSync.min.format("%02d")]);
+        
+        //var lastClockTimeXString = Lang.format("$1$:$2$ $3$/$4$/$5$", [lastSync.hour.format("%02d"),lastSync.min.format("%02d"),lastSync.day.format("%02d"),lastSync.month.format("%02d"),lastSync.year.format("%02d")]);
         
         dc.drawText(
             lastClockTimeX,
@@ -243,110 +253,6 @@ class MonCadranDeMontreView extends Ui.WatchFace {
             Gfx.TEXT_JUSTIFY_CENTER
         );
     }
-    /*function drawTemperatureGraph(dc as Gfx.Dc, temps ) as Void {
-        
-        var width = dc.getWidth();
-        var height = dc.getHeight();
-        
-        // Définir la zone où le graphique sera dessiné (Ex: bas de l'écran)
-        var graphHeight = height / 3; // Graphique de 1/5e de la hauteur de l'écran
-        var graphYStart = height - graphHeight - 50; // Commencer juste au-dessus du "GARMIN"
-        var graphXStart = width/6; 
-        var graphXEnd = width - width/6;
-        var graphWidth = graphXEnd - graphXStart;
-       // Sys.println("DEBUG: "+width+"x"+height+" "+graphXStart+","+graphYStart+" "+graphWidth+"-"+graphHeight);
-        //dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);// couleur rectangle
-        //dc.drawRectangle(graphXStart, graphYStart, graphWidth, graphHeight);
-        if (temps.size() == 0) {
-            return; // Rien à dessiner
-        }
-        
-        // 1. Déterminer les valeurs Min/Max pour l'échelle Y
-        var minTemp = temps[0];
-        var maxTemp = temps[0];
-        for (var i = 1; i < temps.size(); i++) {
-            if (temps[i] < minTemp) { minTemp = temps[i]; }
-            if (temps[i] > maxTemp) { maxTemp = temps[i]; }
-        }
-        //Sys.println("DEBUG: "+"minTemp:"+ minTemp + "maxTemp:"+maxTemp);
-        // Ajouter une marge pour que la courbe ne touche pas les bords
-        minTemp -= 2; 
-        maxTemp += 2;
-        var tempRange = maxTemp - minTemp;
-        if (tempRange == 0) { tempRange = 1; } // Éviter la division par zéro
-        
-        // 2. Dessiner la courbe
-        dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
-        var prevX = -1;
-        var prevY = -1;
-        
-        for (var i = 0; i < temps.size(); i++) {
-            // Calculer la position X (répartition des 24 points sur la largeur du graphique)
-            var currentX = graphXStart + (i * graphWidth) / (temps.size() - 1);
-            
-            // Calculer la position Y (mise à l'échelle de la température sur la hauteur du graphique)
-            // L'axe Y est inversé (Y=0 est en haut)
-            var tempNormalized = (temps[i] - minTemp) / tempRange;
-            var currentY = graphYStart + graphHeight - (tempNormalized * graphHeight);
-            
-            // Dessiner la ligne entre les points
-            if (prevX != -1) {
-                //dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
-                dc.setColor(Green_color,Gfx.COLOR_TRANSPARENT);
-                dc.drawLine(prevX.toNumber(), prevY.toNumber(), currentX.toNumber(), currentY.toNumber());
-
-                dc.fillCircle(prevX,prevY,2);
-                dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_TRANSPARENT);
-                dc.drawLine(prevX,graphYStart,prevX,graphYStart+graphHeight);
-                
-            }
-            dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
-            var maxTempFormat = Lang.format("$1$", [maxTemp.format("%d")]);
-            var minTempFormat = Lang.format("$1$", [minTemp.format("%d")]);
-            
-            dc.drawText(
-                    graphXStart-25,
-                    graphYStart+60,
-                    Gfx.FONT_XTINY,
-                    minTempFormat,
-                    Gfx.TEXT_JUSTIFY_CENTER
-                );
-            dc.drawText(
-                   graphXStart-25,
-                    graphYStart-10,
-                    Gfx.FONT_XTINY,
-                    maxTempFormat,
-                    Gfx.TEXT_JUSTIFY_CENTER
-                );
-            dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
-            var lastClockTimeX = graphXStart+graphWidth/2;
-            var lastClockTimeY = (graphYStart+graphHeight/2)+40;
-            var lastClockTimeXString = Lang.format("$1$:$2$", [lastClockTime.hour.format("%2d"), lastClockTime.min.format("%2d")]);
-            //var lastClockTimeXString = lastClockTime.hour+":"+lastClockTime.min;
-            dc.drawText(
-                   lastClockTimeX,
-                    lastClockTimeY,
-                    Gfx.FONT_XTINY,
-                    lastClockTimeXString,
-                    Gfx.TEXT_JUSTIFY_CENTER
-                );
-            
-            prevX = currentX;
-            prevY = currentY;
-        }
-        
-        // 3. (Optionnel) Dessiner un marqueur de temps (ex: l'heure actuelle au début)
-        var tempMaxNormalized = maxTemp;
-        var posYtempMax = graphYStart + graphHeight - (tempMaxNormalized * graphHeight);//ici
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-        dc.drawText(
-            graphXStart, 
-            graphYStart + graphHeight + 5, 
-            Gfx.FONT_XTINY, 
-            maxTemp ,
-            Gfx.TEXT_JUSTIFY_LEFT
-        );
-    }*/
     function showTemperature(dc as Gfx.Dc, posX, posY) as Void{
         var textFunction = "function showTemperature(dc as Gfx.Dc, posY:"+posX+", posY:"+posY+")";
         // --- 🌡️ AFFICHAGE TEMPÉRATURE ------------------------------------------
@@ -418,15 +324,15 @@ class MonCadranDeMontreView extends Ui.WatchFace {
             :hour   => today.hour , 
             :minute => today.min 
         };
-        Sys.println(textFunction);
-        Sys.println("DEBUG: "+optionCoucherSoleil[:hour] +" " +lastOptionCoucherSoleil[:hour]);
+        //Sys.println(textFunction);
+        //Sys.println("DEBUG: "+optionCoucherSoleil[:hour] +" " +lastOptionCoucherSoleil[:hour]);
         //if (optionCoucherSoleil[:hour]!= lastOptionCoucherSoleil[:hour]){
-            Sys.println("DEBUG on passe dansle If pour affichier leheure de coucher de soleil ");
+            //Sys.println("DEBUG on passe dansle If pour affichier leheure de coucher de soleil ");
             lastOptionCoucherSoleil = optionCoucherSoleil;
             var todayMoment = Gregorian.moment(optionCoucherSoleil);
             var HeureCoucheSoleil = Weather.getSunset(positionSoleil.position,todayMoment);
 
-            Sys.println("DEBUG: HeureCoucheSoleil:"+HeureCoucheSoleil+"positionSoleil.position:"+positionSoleil.position+" todayMoment:"+todayMoment);
+            //Sys.println("DEBUG: HeureCoucheSoleil:"+HeureCoucheSoleil+"positionSoleil.position:"+positionSoleil.position+" todayMoment:"+todayMoment);
             //getSunrise(location as Position.Location, date as Time.Moment) as Time.Moment or Null
             //Get sunrise time for the provided location and date.
               
@@ -444,7 +350,7 @@ class MonCadranDeMontreView extends Ui.WatchFace {
                 var soleilFont = Gfx.FONT_XTINY;
                 var soleilXpos = posX;
                 var soleilYpos = posY;
-                Sys.println("DEBUG: coucherSoleil:"+coucherSoleilString);
+                //Sys.println("DEBUG: coucherSoleil:"+coucherSoleilString);
                 dc.setColor(Gfx.COLOR_BLUE,Gfx.COLOR_TRANSPARENT);
                 dc.setColor(Green_color, Gfx.COLOR_TRANSPARENT); // Texte gris clair pour les pas
 
@@ -479,7 +385,7 @@ class MonCadranDeMontreView extends Ui.WatchFace {
         //}  
     } // fin --- ☀️ COUCHER DU SOLEIL (Méthode Météo GARANTIE) ---   
     function showPas(dc, posX,posY)as Void{
-        var textFunction ="DEBUG: showPas(dc, "+posX+","+posY+")";
+        //var textFunction ="DEBUG: showPas(dc, "+posX+","+posY+")";
         // --- 👣 AFFICHAGE DES PAS  ------------------------------------------
         // 1. Définir le FOND en NOIR et le premier plan en BLANC pour le CLEAR
 
@@ -624,7 +530,7 @@ class MonCadranDeMontreView extends Ui.WatchFace {
         // Tente de récupérer l'altitude la plus récente
         var positionInfo = Position.getInfo(); 
         var altFont = Gfx.FONT_XTINY;
-        var altPosX = posX;
+        var altPosX = posX+15;
         var altPosY = posY;
         
         //var hrYPos = height/2 - height/4+20 ; // Ajout d'une marge de 5 pixels
@@ -734,65 +640,206 @@ class MonCadranDeMontreView extends Ui.WatchFace {
             
     }
     function showTemperatureGraph(dc,posX,posY) as Void{
-         // --- 📉 COURBE DES TEMPÉRATURES PRÉVUES (24h) --------------------------
+         // --- 📉 COURBE DES TEMPÉRATURES PRÉVUES (24h) et precipitation -------------------------
         //si check il ya  plus d'une heure d'une heure 
+        var fonctionName = "showTemperatureGraph(dc,posX,posY)";
         var newClock  = Sys.getClockTime();
-        var newValueClock =0;
+        var newValueClock = 0;
         var lastValueClock = (lastClockTime.hour*60)+lastClockTime.min;
-
-        //Sys.println("DEBUG: "+newValueClock+"-"+lastValueClock+"="+(newValueClock-lastValueClock));
-
-        if((newValueClock-lastValueClock>60) ||(newValueClock-lastValueClock<0) ){
+       
+        
+       
+        var differenceHour = newClock.hour  - lastClockTime.hour;
+        var hourlyForecast = null;
+        //differenceHour = 3;// test synchro
+        Sys.println("DEBUG: "+fonctionName+" differenceHour:"+differenceHour+" lastSync:"+lastSync);
+        Sys.println("DEBUG: "+fonctionName+" temperatures:"+temperatures+" precipitation:"+precipitation);
+        if(differenceHour>2||lastSync == null){ // ou premiere lancement le graph ne s'affiche pas au demarrage 
+            // fais un synchro seuleemnt toute les 2 heures
+        
             newValueClock = (newClock.hour*60)+newClock.min;
-            var hourlyForecast = Toybox.Weather.getHourlyForecast();
+            hourlyForecast = Toybox.Weather.getHourlyForecast();
+            Sys.println("DEBUG: "+fonctionName+" la synchro doit etre faite ");
             //Sys.println("DEBUG: "+newValueClock+"-"+lastValueClock+"="+(newValueClock-lastValueClock));
-            if (hourlyForecast != null && hourlyForecast.size() > 0) {
-                
-                
-                var temperatures = [];
-                var precipitation = [];
-                var maxPoints = 24; // Nous ne voulons que les 24 prochaines heures
-                
-                // 1. Collecter les 24 points de données de température
-                for (var i = 0; i < hourlyForecast.size() && i < maxPoints; i++) {
-                    var forecast = hourlyForecast[i];
-                    
-                    // La température est généralement fournie en degrés Celsius ou selon les paramètres utilisateur
-                    var temp = forecast.temperature; 
-                    var prec = forecast.precipitationChance;
-                    
-                    // Si la température est en Celsius (unité par défaut de l'API), la convertir si l'utilisateur est en STATUTE (Fahrenheit)
-                   /* if (Sys.getDeviceSettings().temperatureUnits == Sys.UNIT_STATUTE) {
-                        // Conversion Celsius vers Fahrenheit: (C * 9/5) + 32
-                        temp = (temp * 9 / 5) + 32;
-                    }
-                    */
-                    temperatures.add(temp);
-                    precipitation.add(prec);
+        }
+        Sys.println("DEBUG: "+fonctionName+" precipitation.size():"+precipitation.size());
+        // test sur les tailles des tableau precipitaion et temperature
 
+        
+        if (hourlyForecast != null && hourlyForecast.size() > 0) {
+            
+            var maxPoints = 24; // Nous ne voulons que les 24 prochaines heures
+            
+            // 1. Collecter les 24 points de données de température
+            for (var i = 0; i < hourlyForecast.size() && i < maxPoints; i++) {
+                var forecast = hourlyForecast[i];
+                var forecastTime = forecast.forecastTime;
+                var info = Time.Gregorian.info(forecastTime, Time.FORMAT_SHORT);
+                
+                // La température est généralement fournie en degrés Celsius ou selon les paramètres utilisateur
+                var temp = forecast.temperature; 
+                var prec = forecast.precipitationChance;
+                lastSync = info;
+                //Sys.println("DEBUG::"+fonctionName+"\ntemperatures[]:"+temperatures+"\nprecipitation[]:"+precipitation+" \ninfo:"+info.hour+":"+info.min);
+                
+                // Si la température est en Celsius (unité par défaut de l'API), la convertir si l'utilisateur est en STATUTE (Fahrenheit)
+                /* if (Sys.getDeviceSettings().temperatureUnits == Sys.UNIT_STATUTE) {
+                    // Conversion Celsius vers Fahrenheit: (C * 9/5) + 32
+                    temp = (temp * 9 / 5) + 32;
                 }
-                
-                // 2. Dessiner la courbe à partir du tableau 'temperatures'
-                drawTemperatureGraph2(dc, temperatures,precipitation,posX,posY); 
+                */
+                temperatures.add(temp);
+                precipitation.add(prec);
 
-               
-                lastValueClock = newValueClock;
             }
         }
+        if(precipitation.size()>1){
+            // 2. Dessiner la courbe à partir du tableau 'temperatures'
+            Sys.println("DEBUG: "+fonctionName+" avant drawTemperatureGraph2 ");
+            drawTemperatureGraph2(dc, temperatures,precipitation,posX,posY); 
+
+            
+            lastValueClock = newValueClock;
+        }
+        
         //--- fin weather ------------------------------------------
+    }
+    function test02(dc as Gfx.Dc) as Void{
+        var textfunction="DEBUG function test02(dc as Gfx.Dc)";
+        //Sys.println(textfunction);
+        dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+        
+        var textTest02Y = 300;
+        var textTest02X = 200;
+        var textTest02Font = Gfx.FONT_XTINY;
+        dc.drawCircle(textTest02X,textTest02Y,50);
+        dc.drawText(
+                    textTest02X,
+                    textTest02Y,
+                    textTest02Font,
+                    "Choix 1",
+                    Gfx.TEXT_JUSTIFY_LEFT
+                );
+       
     }
     function test(dc as Gfx.Dc) as Void{
         var textfunction="DEBUG function test(dc as Gfx.Dc)";
-        Sys.println(textfunction);
+        //Sys.println(textfunction);
         dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
         dc.drawCircle(200,200,50);
       
     }
+    function alternanceDisplay(value){
+        //  retourne une valeur entre 0 et 1 suivant les valeur de seconde 
+        //  5 pour toutes les 5 sec 
+        //  2 pour le nombre de vue 
+        
+        var textfunction="DEBUG: alternanceDisplay("+value+")";
+        var result  = (value / 5) % 2;
+        //var result = value / 10;
+        
+        Sys.println(textfunction+"\nresult: "+result);
+        switch(result){
+            case 0:
+                    return 0;
+            case 1: 
+                    return 1;
+            default: 
+                    return 2;
+                    
+        }
+        
+    }
+    function backupBackground(dc as Gfx.Dc,X as Lang.Number,Y as Lang.Number,dimX as Lang.Number ,dimY as Lang.Number){
+        //cette methode doit sauvegarder une zone rectangulaire definie par les parametres
+        //X et Y plus une dimension en dimX et dimY
+        var textfunction  = "function backupBackground(dc as Gfx.Dc,X as Lang.Number,Y as Lang.Number,dimX as Lang.Number ,dimY as Lang.Number)";
+        
+       
+        if (Graphics has :createBufferedBitmap) {
+        backupBuffer = Graphics.createBufferedBitmap({
+            :width => dimX, 
+            :height => dimY
+        }).get();
+       
+        }
+
+        
+        if (backupBuffer != null) {
+            // 1. On mémorise les paramètres pour la restauration future
+            backupBufferX = X;
+            backupBufferY = Y;
+            backupBufferDimX = dimX;
+            backupBufferDimY = dimY;
+
+            // 2. On récupère le contexte graphique du buffer pour écrire dedans
+
+            var bufferDc = backupBuffer.getDc();
+
+            // 3. ON CAPTURE : on dessine l'écran dans le buffer avec le décalage négatif
+            // Cela aligne le point (x,y) de l'écran sur le point (0,0) du buffer
+            Sys.println("DEBUG:"+textfunction+"\n\t\tbackupBuffer[X,Y]: ["+backupBufferX+","+backupBufferY+"]");
+            Sys.println("DEBUG:\t\tbackupBufferDimX: ["+backupBufferDimX+"x"+backupBufferDimY+"]");
+            bufferDc.drawBitmap(-backupBufferX, -backupBufferY, background);
+        }
+    }
+    function restoreBackgroundAt(dc as Gfx.Dc,X as Lang.Number, Y as Lang.Number) as Void {
+        // restaorer le buffer image sauvegrar à un endroit precis X ,Y
+        var textfunction = "function restoreBackgroundAt(dc as Gfx.Dc,X as Lang.Number, Y as Lang.Number)";
+         if (backupBuffer != null) {
+            // On définit une zone de découpe (Clip) pour ne pas déborder 
+            // si le buffer est plus grand que la zone sauvegardée
+
+            //rectangle bleu de visualisation des modifs
+            //dc.setColor(Blue_color, Gfx.COLOR_TRANSPARENT);
+            //dc.fillRectangle(0,backupBufferY-5,backupBufferDimX+150,backupBufferDimY+20);
+
+            //dc.setClip(backupBufferX, backupBufferY, backupBufferDimX, backupBufferDimY);
+            Sys.println("DEBUG:"+textfunction+"\nDEBUG:\tdc.fillCircle(backupBufferX+50,backupBufferY+50,12);");
+            
+            dc.setColor(Green_color,Gfx.COLOR_TRANSPARENT);
+           
+            // On redessine le buffer aux coordonnées mémorisées
+            dc.drawBitmap(X, Y, backupBuffer);
+            //dc.fillCircle(X+50,Y+50,12);
+            //dc.drawRectangle(X+49,Y+49,backupBufferDimX+2,backupBufferDimY+2);
+            
+            // On réinitialise la zone de découpe à l'écran entier
+            dc.clearClip();
+        }
+    }
+    function restoreBackground(dc as Gfx.Dc) as Void {
+        var textfunction  ="function restoreBackground(dc as Gfx.Dc) as Void";
+        //Sys.println("DEBUG:"+textfunction+"\nBefore:  if (backupBuffer != null)  ");
+        //Sys.println("DEBUG: "+"backupBuffer:"+backupBuffer);
+        if (backupBuffer != null) {
+            // On définit une zone de découpe (Clip) pour ne pas déborder 
+            // si le buffer est plus grand que la zone sauvegardée
+
+            //rectangle bleu de visualisation des modifs
+            //dc.setColor(Blue_color, Gfx.COLOR_TRANSPARENT);
+            //dc.fillRectangle(0,backupBufferY-5,backupBufferDimX+150,backupBufferDimY+20);
+
+            //dc.setClip(backupBufferX, backupBufferY, backupBufferDimX, backupBufferDimY);
+            Sys.println("DEBUG:"+textfunction+"\nDEBUG:\tdc.fillCircle(backupBufferX+50,backupBufferY+50,12);");
+            
+            dc.setColor(Green_color,Gfx.COLOR_TRANSPARENT);
+            dc.fillCircle(backupBufferX+50,backupBufferY+50,12);
+            // On redessine le buffer aux coordonnées mémorisées
+            dc.drawBitmap(backupBufferX, backupBufferY, backupBuffer);
+            
+            // On réinitialise la zone de découpe à l'écran entier
+            dc.clearClip();
+        }
+}
     function onUpdate(dc as Gfx.Dc) as Void {
+        var textfunction  ="function onUpdate(dc as Gfx.Dc) as Void";
         //System.println("DEBUG: onUpdate appelée. Début du dessin...");//
          // 0. Appel parent (bonne pratique pour les WatchFace)
+        Sys.println("DEBUG:"+textfunction);
         Ui.WatchFace.onUpdate(dc); 
         var app = App.getApp();
+       
         // --- 🖼️ DESSIN DE L'IMAGE DE FOND (EN PREMIER) ---
         if (background != null) {
             //Sys.println("DEBUG: background not null "+background);
@@ -809,12 +856,61 @@ class MonCadranDeMontreView extends Ui.WatchFace {
         var fontHeight = Gfx.getFontHeight(currentFont);
         var timeYpos = (height / 2)-45 ;
         // --- 📉 COURBE DES TEMPÉRATURES PRÉVUES (24h) weather --------------------------
-        var graphHeight = height / 3; // Graphique de 1/5e de la hauteur de l'écran
+        var graphHeight = height / 3; // Graphique de 1/3e de la hauteur de l'écran
         var graphYStart = height - graphHeight - 65; // Commencer juste au-dessus du "GARMIN"
         var graphXStart = width/6; 
-        //var graphXEnd = width - width/6;
-        //var graphWidth = graphXEnd - graphXStart;
+        var graphWidth = (width - width/6) - graphXStart;
+       
+        
+        dc.setColor(Orange_color, Gfx.COLOR_TRANSPARENT);
+        dc.drawRectangle(graphXStart,graphYStart,graphWidth,graphHeight);
+                /* -- A VERIFIER ------
+                drawRectangle(x as Lang.Numeric, y as Lang.Numeric, width as Lang.Numeric, height as Lang.Numeric)
+                   
+                */
+        // ----- TIME
+        var now = Sys.getClockTime();
+        var hours = now.hour;
+        var min = now.min;
+        var sec= now.sec;
+        //Sys.println(hours+":"+min+":"+sec);
+        // antichevauchement 
+
+
+        
+        
+        //dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
+        //dc.fillRectangle(0, 180, width, 120);
+        
+        //system d'alternance 
+        var displayMode = alternanceDisplay(sec);
+        Sys.println("displaymode: "+displayMode);
+        //var displayMode = 1 ;
+        var tailley= graphHeight ;
+        var taillex= graphWidth;
+        
+        Sys.println("DEBUG: [taillex x tailley]: ["+tailley+" x "+taillex+"]");
+        restoreBackgroundAt(dc,20,20);
+        restoreBackground(dc);
+        backupBackground(dc,graphXStart-20,graphYStart,taillex+20,tailley);
         showTemperatureGraph(dc,graphXStart,graphYStart);
+        /*
+        switch( displayMode){
+            case 0:
+               
+                dc.setColor(Blue_color,Gfx.COLOR_TRANSPARENT);
+                dc.fillRectangle(graphXStart+50,graphYStart+10,40,40);
+                
+                //showTemperatureGraph(dc,graphXStart,graphYStart);
+            case 1:
+                dc.setColor(Orange_color,Gfx.COLOR_TRANSPARENT);
+                dc.fillCircle(graphXStart+80,graphYStart+80,12);
+                test02(dc);
+           
+           
+
+        }
+        */
         // fin 📉 COURBE DES TEMPÉRATURES PRÉVUES (24h) weather --------------------------
         // --- 👣 AFFICHAGE DES PAS  ------------------------------------------
         var timefontHeight = Gfx.getFontHeight(timeFont); 
@@ -840,10 +936,8 @@ class MonCadranDeMontreView extends Ui.WatchFace {
         
     
         // --- TIME  ------------------------------------------
-        // Si la police 'timeFont' n'est pas déjà définie, utilisons une grande police sûre.
-        var now = Sys.getClockTime();
-        var hours = now.hour;
-        var min = now.min;
+
+        
         if (timeFont == null) {
             timeFont = Gfx.FONT_NUMBER_HOT;
         }
